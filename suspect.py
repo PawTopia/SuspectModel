@@ -7,7 +7,7 @@ from flask import Flask, request, jsonify
 app = Flask(__name__)
 
 # Load the Model
-model = load_model('nn_model.h5')
+model = load_model('dogModel.h5')
 
 # Label
 labels = ["Tick fever", "Distemper", "Parvovirus",
@@ -44,17 +44,17 @@ def predict():
     df = df.astype(int)
 
     # Prediksi hanya jika gejala lebih dari atau sama dengan 3
+    predicted_label = None
     if len(selected_gejala) >= 3:
         # Prediksi
         prediction = model.predict(df)
-
         # Menentukan label berdasarkan nilai prediksi tertinggi
         max_index = np.argmax(prediction)
         predicted_label = labels[max_index]
         
         return jsonify({"message": "Prediksi berhasil.", "gejala": gejala_message, "Prediction": predicted_label})
     else:
-        return jsonify({"gejala": gejala_message, "Prediction": predicted_label})
+        return jsonify({"gejala": gejala_message, "Prediction": "No Prediction"})
 
 @app.errorhandler(404)
 def invalid_route(e):
