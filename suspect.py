@@ -7,7 +7,7 @@ from flask import Flask, request, jsonify
 app = Flask(__name__)
 
 # Load the Model
-model = load_model('dogModel.h5')
+model = load_model('revision_1_nn_model.h5')
 
 # Label
 labels = ["Tick fever", "Distemper", "Parvovirus",
@@ -43,7 +43,7 @@ def predict():
     df = pd.DataFrame([gejala], columns=["gejala_" + str(i+1) for i in range(len(gejala))])
     df = df.astype(int)
 
-    # Prediksi hanya jika gejala lebih dari atau sama dengan 3
+    # akan Prediksi jika gejala lebih dari atau sama dengan 3
     predicted_label = None
     if len(selected_gejala) >= 3:
         # Prediksi
