@@ -1,0 +1,64 @@
+{
+    "deskripsi_gejala" :[
+        {
+            "name" : "Tick fever",
+            "description" : "Early signs may include fever (up to 105°F [40.5°C]), loss of appetite, enlargement of the lymph nodes, inflammation of several joints, coughing or difficulty in breathing, abdominal pain, vomiting and diarrhea, and swelling of the face or extremities.",
+            "treatment" : "Remove Ticks Safely, Isolate the Pet, Provide Comfort:"
+        },
+        {
+            "name" : "Distemper",
+            "description" : "Early signs may include fever (up to 105°F [40.5°C]), loss of appetite, enlargement of the lymph nodes, inflammation of several joints, coughing or difficulty in breathing, abdominal pain, vomiting and diarrhea, and swelling of the face or extremities.",
+            "treatment" : "Remove Ticks Safely, Isolate the Pet, Provide Comfort:"
+        },
+        {
+            "name" : "Parvovirus",
+            "description" : "Early signs may include fever (up to 105°F [40.5°C]), loss of appetite, enlargement of the lymph nodes, inflammation of several joints, coughing or difficulty in breathing, abdominal pain, vomiting and diarrhea, and swelling of the face or extremities.",
+            "treatment" : "Remove Ticks Safely, Isolate the Pet, Provide Comfort:"
+        },
+        {
+            "name" : "Hepatitis",
+            "description" : "Early signs may include fever (up to 105°F [40.5°C]), loss of appetite, enlargement of the lymph nodes, inflammation of several joints, coughing or difficulty in breathing, abdominal pain, vomiting and diarrhea, and swelling of the face or extremities.",
+            "treatment" : "Remove Ticks Safely, Isolate the Pet, Provide Comfort:"
+        },
+        {
+            "name" : "Tetanus",
+            "description" : "Early signs may include fever (up to 105°F [40.5°C]), loss of appetite, enlargement of the lymph nodes, inflammation of several joints, coughing or difficulty in breathing, abdominal pain, vomiting and diarrhea, and swelling of the face or extremities.",
+            "treatment" : "Remove Ticks Safely, Isolate the Pet, Provide Comfort:"
+        },
+        {
+            "name" : "Chronic kidney Disease",
+            "description" : "Early signs may include fever (up to 105°F [40.5°C]), loss of appetite, enlargement of the lymph nodes, inflammation of several joints, coughing or difficulty in breathing, abdominal pain, vomiting and diarrhea, and swelling of the face or extremities.",
+            "treatment" : "Remove Ticks Safely, Isolate the Pet, Provide Comfort:"
+        },
+        {
+            "name" : "Diabetes",
+            "description" : "Early signs may include fever (up to 105°F [40.5°C]), loss of appetite, enlargement of the lymph nodes, inflammation of several joints, coughing or difficulty in breathing, abdominal pain, vomiting and diarrhea, and swelling of the face or extremities.",
+            "treatment" : "Remove Ticks Safely, Isolate the Pet, Provide Comfort:"
+        },
+        {
+            "name" : "Gastrointestinal Disease",
+            "description" : "Early signs may include fever (up to 105°F [40.5°C]), loss of appetite, enlargement of the lymph nodes, inflammation of several joints, coughing or difficulty in breathing, abdominal pain, vomiting and diarrhea, and swelling of the face or extremities.",
+            "treatment" : "Remove Ticks Safely, Isolate the Pet, Provide Comfort:"
+        },
+        {
+            "name" : "Allergies",
+            "description" : "Early signs may include fever (up to 105°F [40.5°C]), loss of appetite, enlargement of the lymph nodes, inflammation of several joints, coughing or difficulty in breathing, abdominal pain, vomiting and diarrhea, and swelling of the face or extremities.",
+            "treatment" : "Remove Ticks Safely, Isolate the Pet, Provide Comfort:"
+        },
+        {
+            "name" : "Gingitivis",
+            "description" : "Early signs may include fever (up to 105°F [40.5°C]), loss of appetite, enlargement of the lymph nodes, inflammation of several joints, coughing or difficulty in breathing, abdominal pain, vomiting and diarrhea, and swelling of the face or extremities.",
+            "treatment" : "Remove Ticks Safely, Isolate the Pet, Provide Comfort:"
+        },
+        {
+            "name" : "Cancers",
+            "description" : "Early signs may include fever (up to 105°F [40.5°C]), loss of appetite, enlargement of the lymph nodes, inflammation of several joints, coughing or difficulty in breathing, abdominal pain, vomiting and diarrhea, and swelling of the face or extremities.",
+            "treatment" : "Remove Ticks Safely, Isolate the Pet, Provide Comfort:"
+        },
+        {
+            "name" : "Skin Rashes",
+            "description" : "Early signs may include fever (up to 105°F [40.5°C]), loss of appetite, enlargement of the lymph nodes, inflammation of several joints, coughing or difficulty in breathing, abdominal pain, vomiting and diarrhea, and swelling of the face or extremities.",
+            "treatment" : "Remove Ticks Safely, Isolate the Pet, Provide Comfort:"
+        }
+    ]
+}
