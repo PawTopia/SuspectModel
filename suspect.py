@@ -1,6 +1,8 @@
 import os
 import pandas as pd
 import numpy as np
+import json
+import pprint
 from keras.models import load_model
 from flask import Flask, request, jsonify
 
@@ -14,6 +16,9 @@ labels = ["Tick fever", "Distemper", "Parvovirus",
        "Hepatitis", "Tetanus", "Chronic kidney Disease", "Diabetes",
        "Gastrointestinal Disease", "Allergies", "Gingitivis", "Cancers",
        "Skin Rashes"]
+# membaca data description.json
+with open('Description.json') as f:
+    global_data = json.load(f)
 
 
 @app.route("/predict", methods=["POST"])
@@ -37,7 +42,7 @@ def predict():
     
     # Menampilkan gejala yang dipilih
     selected_gejala = [i+1 for i, value in enumerate(gejala) if value == 1]
-    gejala_message = f"Gejala yang dipilih: {selected_gejala}"
+    gejala_message = f"Gejala yang dipilih: {list(selected_gejala)}"
 
     # Konversi data menjadi format yang dapat digunakan oleh model
     df = pd.DataFrame([gejala], columns=["gejala_" + str(i+1) for i in range(len(gejala))])
@@ -51,11 +56,27 @@ def predict():
         # Menentukan label berdasarkan nilai prediksi tertinggi
         max_index = np.argmax(prediction)
         predicted_label = labels[max_index]
+
+        # mencari description dan treatment hasil dari predicted_label
+        for item in global_data['deskripsi_gejala']:
+            if item["name"] == predicted_label:
+                output = {
+                    "description": item["description"],
+                    "treatment": item["treatment"],
+                }
+        return jsonify({"message": "Prediksi berhasil.", "gejala": gejala_message, "Prediction": predicted_label,"test": output})
+    
+        # for item in global_data['deskripsi_gejala']:
+        #     output = {
+        #         "Name:", item["name"],
+        #         "Description:", item["description"],
+        #         "Treatment:", item["treatment"]
+        #     }
         
-        return jsonify({"message": "Prediksi berhasil.", "gejala": gejala_message, "Prediction": predicted_label})
+        # return jsonify({"message": "Prediksi berhasil.", "gejala": gejala_message, "Prediction": predicted_label})
     else:
         return jsonify({"gejala": gejala_message, "Prediction": "No Prediction"})
-
+    
 @app.errorhandler(404)
 def invalid_route(e):
     return jsonify({'errorcode' : 404, 'message' : 'Route not Found'})
