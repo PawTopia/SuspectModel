@@ -26,7 +26,7 @@ def index():
     body = (
         "<html>"
         "<body style='padding: 10px;'>"
-        "<h1>Welcome to my Flask API</h1>"
+        "<h1>Welcome to Flask API</h1>"
         "</body>"
         "</html>"
     )
