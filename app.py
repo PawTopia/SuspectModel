@@ -79,7 +79,7 @@ def predict():
         # Output dari json akan terlihat seperti tidak rapih karena memerlukan sorting 
         # Referensi (https://stackoverflow.com/questions/2774361/json-output-sorting-in-python)
         
-        output_json = json.dumps({"message": "Prediksi berhasil.", "gejala": gejala_message, "Prediction": predicted_label, "data": output}, sort_keys=True)
+        output_json = json.dumps({"message": "Prediksi berhasil.", "gejala": gejala_message, "prediction": predicted_label, "data": output}, sort_keys=True)
 
     # Return the JSON response using jsonify
         return jsonify(json.loads(output_json))
@@ -94,7 +94,7 @@ def predict():
         
         # return jsonify({"message": "Prediksi berhasil.", "gejala": gejala_message, "Prediction": predicted_label})
     else:
-        return jsonify({"gejala": gejala_message, "Prediction": "No Prediction"})
+        return jsonify({"gejala": gejala_message, "prediction": "No Prediction"})
     
 @app.errorhandler(404)
 def invalid_route(e):
