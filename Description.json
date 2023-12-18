@@ -1,64 +1,77 @@
 {
-    "deskripsi_gejala" :[
-        {
-            "name" : "Tick fever",
-            "description" : "Early signs may include fever (up to 105°F [40.5°C]), loss of appetite, enlargement of the lymph nodes, inflammation of several joints, coughing or difficulty in breathing, abdominal pain, vomiting and diarrhea, and swelling of the face or extremities.",
-            "treatment" : "Remove Ticks Safely, Isolate the Pet, Provide Comfort:"
-        },
-        {
-            "name" : "Distemper",
-            "description" : "Early signs may include fever (up to 105°F [40.5°C]), loss of appetite, enlargement of the lymph nodes, inflammation of several joints, coughing or difficulty in breathing, abdominal pain, vomiting and diarrhea, and swelling of the face or extremities.",
-            "treatment" : "Remove Ticks Safely, Isolate the Pet, Provide Comfort:"
-        },
-        {
-            "name" : "Parvovirus",
-            "description" : "Early signs may include fever (up to 105°F [40.5°C]), loss of appetite, enlargement of the lymph nodes, inflammation of several joints, coughing or difficulty in breathing, abdominal pain, vomiting and diarrhea, and swelling of the face or extremities.",
-            "treatment" : "Remove Ticks Safely, Isolate the Pet, Provide Comfort:"
-        },
-        {
-            "name" : "Hepatitis",
-            "description" : "Early signs may include fever (up to 105°F [40.5°C]), loss of appetite, enlargement of the lymph nodes, inflammation of several joints, coughing or difficulty in breathing, abdominal pain, vomiting and diarrhea, and swelling of the face or extremities.",
-            "treatment" : "Remove Ticks Safely, Isolate the Pet, Provide Comfort:"
-        },
-        {
-            "name" : "Tetanus",
-            "description" : "Early signs may include fever (up to 105°F [40.5°C]), loss of appetite, enlargement of the lymph nodes, inflammation of several joints, coughing or difficulty in breathing, abdominal pain, vomiting and diarrhea, and swelling of the face or extremities.",
-            "treatment" : "Remove Ticks Safely, Isolate the Pet, Provide Comfort:"
-        },
-        {
-            "name" : "Chronic kidney Disease",
-            "description" : "Early signs may include fever (up to 105°F [40.5°C]), loss of appetite, enlargement of the lymph nodes, inflammation of several joints, coughing or difficulty in breathing, abdominal pain, vomiting and diarrhea, and swelling of the face or extremities.",
-            "treatment" : "Remove Ticks Safely, Isolate the Pet, Provide Comfort:"
-        },
-        {
-            "name" : "Diabetes",
-            "description" : "Early signs may include fever (up to 105°F [40.5°C]), loss of appetite, enlargement of the lymph nodes, inflammation of several joints, coughing or difficulty in breathing, abdominal pain, vomiting and diarrhea, and swelling of the face or extremities.",
-            "treatment" : "Remove Ticks Safely, Isolate the Pet, Provide Comfort:"
-        },
-        {
-            "name" : "Gastrointestinal Disease",
-            "description" : "Early signs may include fever (up to 105°F [40.5°C]), loss of appetite, enlargement of the lymph nodes, inflammation of several joints, coughing or difficulty in breathing, abdominal pain, vomiting and diarrhea, and swelling of the face or extremities.",
-            "treatment" : "Remove Ticks Safely, Isolate the Pet, Provide Comfort:"
-        },
-        {
-            "name" : "Allergies",
-            "description" : "Early signs may include fever (up to 105°F [40.5°C]), loss of appetite, enlargement of the lymph nodes, inflammation of several joints, coughing or difficulty in breathing, abdominal pain, vomiting and diarrhea, and swelling of the face or extremities.",
-            "treatment" : "Remove Ticks Safely, Isolate the Pet, Provide Comfort:"
-        },
-        {
-            "name" : "Gingitivis",
-            "description" : "Early signs may include fever (up to 105°F [40.5°C]), loss of appetite, enlargement of the lymph nodes, inflammation of several joints, coughing or difficulty in breathing, abdominal pain, vomiting and diarrhea, and swelling of the face or extremities.",
-            "treatment" : "Remove Ticks Safely, Isolate the Pet, Provide Comfort:"
-        },
-        {
-            "name" : "Cancers",
-            "description" : "Early signs may include fever (up to 105°F [40.5°C]), loss of appetite, enlargement of the lymph nodes, inflammation of several joints, coughing or difficulty in breathing, abdominal pain, vomiting and diarrhea, and swelling of the face or extremities.",
-            "treatment" : "Remove Ticks Safely, Isolate the Pet, Provide Comfort:"
-        },
-        {
-            "name" : "Skin Rashes",
-            "description" : "Early signs may include fever (up to 105°F [40.5°C]), loss of appetite, enlargement of the lymph nodes, inflammation of several joints, coughing or difficulty in breathing, abdominal pain, vomiting and diarrhea, and swelling of the face or extremities.",
-            "treatment" : "Remove Ticks Safely, Isolate the Pet, Provide Comfort:"
-        }
+    "deskripsi_gejala": [
+      {
+        "id": 1,
+        "name": "Tick Fever",
+        "description": "Tick fever is a common illness in dogs and cats caused by tick-borne pathogens. Early signs may include fever (up to 105°F [40.5°C]), loss of appetite, enlargement of the lymph nodes, inflammation of several joints, coughing or difficulty in breathing, abdominal pain, vomiting and diarrhea, and swelling of the face or extremities.",
+        "treatment": "Treatment involves removing ticks safely, isolating the pet, and providing comfort. Consult a veterinarian for appropriate medications and care."
+      },
+      {
+        "id": 2,
+        "name": "Distemper",
+        "description": "Distemper is a viral disease that affects dogs and, to a lesser extent, cats. Early signs may include fever (up to 105°F [40.5°C]), loss of appetite, enlargement of the lymph nodes, inflammation of several joints, coughing or difficulty in breathing, abdominal pain, vomiting and diarrhea, and swelling of the face or extremities.",
+        "treatment": "Treatment focuses on supportive care, including fluids and medications to manage symptoms. Vaccination is crucial for prevention."
+      },
+      {
+        "id": 3,
+        "name": "Parvovirus",
+        "description": "Parvovirus is a highly contagious viral illness affecting dogs, especially puppies. Early signs may include fever (up to 105°F [40.5°C]), loss of appetite, enlargement of the lymph nodes, inflammation of several joints, coughing or difficulty in breathing, abdominal pain, vomiting and diarrhea, and swelling of the face or extremities.",
+        "treatment": "Immediate veterinary attention is essential. Treatment involves supportive care, including fluids and medications to control vomiting and diarrhea."
+      },
+      {
+        "id": 4,
+        "name": "Hepatitis",
+        "description": "Hepatitis is a viral infection affecting the liver in dogs. Early signs may include fever (up to 105°F [40.5°C]), loss of appetite, enlargement of the lymph nodes, inflammation of several joints, coughing or difficulty in breathing, abdominal pain, vomiting and diarrhea, and swelling of the face or extremities.",
+        "treatment": "Treatment involves supportive care, including medications to support liver function. Vaccination is crucial for prevention."
+      },
+      {
+        "id": 5,
+        "name": "Tetanus",
+        "description": "Tetanus is a bacterial infection that can affect dogs and cats. Early signs may include fever (up to 105°F [40.5°C]), loss of appetite, enlargement of the lymph nodes, inflammation of several joints, coughing or difficulty in breathing, abdominal pain, vomiting and diarrhea, and swelling of the face or extremities.",
+        "treatment": "Treatment involves wound care, anti-tetanus medications, and supportive care. Vaccination is a preventive measure."
+      },
+      {
+        "id": 6,
+        "name": "Chronic Kidney Disease",
+        "description": "Chronic kidney disease is a common condition in older cats and dogs. Early signs may include increased thirst, weight loss, lethargy, and changes in urination.",
+        "treatment": "Treatment focuses on managing symptoms, including a special diet, medications, and regular veterinary check-ups."
+      },
+      {
+        "id": 7,
+        "name": "Diabetes",
+        "description": "Diabetes can affect both dogs and cats. Early signs may include increased thirst, changes in appetite, weight loss, and changes in urination.",
+        "treatment": "Treatment involves insulin therapy, dietary management, and regular monitoring of blood glucose levels."
+      },
+      {
+        "id": 8,
+        "name": "Gastrointestinal Disease",
+        "description": "Gastrointestinal diseases, such as gastroenteritis, can affect dogs and cats. Symptoms may include vomiting, diarrhea, abdominal pain, and changes in appetite.",
+        "treatment": "Treatment involves dietary management, medications to control symptoms, and addressing the underlying cause."
+      },
+      {
+        "id": 9,
+        "name": "Allergies",
+        "description": "Allergies are common in both dogs and cats, causing skin and respiratory issues. Symptoms may include itching, redness, sneezing, and respiratory distress.",
+        "treatment": "Treatment involves identifying and avoiding allergens, medications, and in some cases, immunotherapy."
+      },
+      {
+        "id": 10,
+        "name": "Gingivitis",
+        "description": "Gingivitis is an inflammation of the gums in dogs and cats. Symptoms may include redness, swelling, and bleeding of the gums.",
+        "treatment": "Treatment involves dental care, including regular brushing, professional cleanings, and addressing underlying dental issues."
+      },
+      {
+        "id": 11,
+        "name": "Cancers",
+        "description": "Cancers can affect dogs and cats, with various types and symptoms. Early detection and diagnosis are crucial for effective treatment.",
+        "treatment": "Treatment varies based on the type of cancer and may include surgery, chemotherapy, and supportive care."
+      },
+      {
+        "id": 12,
+        "name": "Skin Rashes",
+        "description": "Skin rashes can occur in dogs and cats due to various causes, including allergies, infections, or parasites. Symptoms may include redness, itching, and changes in skin texture.",
+        "treatment": "Treatment involves identifying and addressing the underlying cause, along with medications to alleviate symptoms."
+      }
     ]
-}
+  }
+  
