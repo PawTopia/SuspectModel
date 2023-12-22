@@ -22,7 +22,7 @@ x-www-urlencoded
     - ```json
       {
        "data": {
-          "description": "Skin rashes can occur in dogs and cats due to various causes, including allergies, infections, or parasites. Symptoms may include redness, itching, and                                 changes in skin texture.",
+          "description": "Skin rashes can occur in dogs and cats due to various causes, including allergies, infections, or parasites. Symptoms may include redness, itching, and changes in skin texture.",
           "treatment": "Treatment involves identifying and addressing the underlying cause, along with medications to alleviate symptoms."
         },
        "gejala": "Gejala yang dipilih: [1, 50, 80]",
